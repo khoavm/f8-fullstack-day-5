@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    max-height: 100vh;
+}
+
+
+h1 {
+    font-size: 22px;
+}
+h2, h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+ul{
+    padding-left: 22px;
+}
+li {
+    line-height: 1.3;
+    font-size: 14px;
+    word-spacing: 3px;
+}
+li:not(:first-child){
+    margin-top: 4px;
+}
+
+.cv_name { 
+    margin-top: 40px;
+}
+
+.cv_container{
+    width: 90%;
+    max-width: 807px;
+    margin: 0 auto;
+    margin-top: 38px;
+    border: 1px solid silver;
+    padding: 54px auto;
+}
+.cv_header {
+    text-align: center;
+}
+
+.cv_content {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 665px;
+    margin-top: 18px;
+}
+
+.cv_section {
+    margin-top: 18px;
+}
+
+.job{
+    margin-top: 12px;
+}
+
+.job_title{
+    display: inline-block;
+}
+.job_time{
+    float: right;
+}
+.job_description{
+    margin-top: 12px;
+}
+
+.university{
+    margin-top: 15px;
+}
+
+
