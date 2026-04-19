@@ -4,36 +4,17 @@
     font-size: 14px;
 }
 
-body {
-    max-height: 100vh;
-}
-
-
 h1 {
     font-size: 22px;
 }
-h2, h3{
-    font-size: 14px;
-    font-weight: 600;
-}
-ul{
-    padding-left: 22px;
-}
-li {
-    line-height: 1.3;
-    font-size: 14px;
-    word-spacing: 3px;
-}
-li:not(:first-child){
-    margin-top: 4px;
-}
+
 
 .cv_name { 
     margin-top: 40px;
 }
 
 .cv_container{
-    width: 90%;
+    width: 100%;
     max-width: 807px;
     margin: 0 auto;
     margin-top: 38px;
@@ -55,22 +36,117 @@ li:not(:first-child){
     margin-top: 18px;
 }
 
+.cv_section title{
+    font-size: 14px;
+    font-weight: 600;
+}
+
 .job{
     margin-top: 12px;
 }
 
 .job_title{
     display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
 }
 .job_time{
     float: right;
 }
 .job_description{
     margin-top: 12px;
+    padding-left: 22px;
+}
+
+.job_description li {
+    line-height: 1.3;
+    font-size: 14px;
+    word-spacing: 3px;
+}
+.job_description li:not(:first-child){
+    margin-top: 4px;
 }
 
 .university{
     margin-top: 15px;
 }
+
+.menu_container {
+    background-color: #405cc7;
+    width: 100%;
+    max-width: 1215px;
+    margin: 0 auto;
+    padding: 0 70px;
+    border: 1px solid silver;
+}
+.menu {
+    padding-left: 0;
+    font-size: 0;
+    cursor: pointer;
+    height: 73px;
+    line-height: 73px;
+}
+.menu_item {
+    display: inline-block;
+    width: 12.5%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    height: 100%;
+}
+
+.menu_item:first-of-type{
+    background-color: white;
+    color: black;
+}
+
+.menu_item:hover{
+    background-color: white;
+    color: black;
+}
+.menu_item:hover .down_triangle{
+    border-top-color: black;
+}
+
+.down_triangle {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid white;
+  display: inline-block;
+  margin-left: 3px;
+  margin-bottom: 2px;
+}
+
+.more_item {
+    display: none;
+    background: #fff;
+    list-style: none;
+    color: black;
+    text-align: left;
+    position: absolute;
+    border-top: 0px;
+    top: 100%;
+    width: 200%;
+    
+    padding: 0;
+}
+.more_item li{
+    padding-left: 39px;
+    border: 1px solid silver;
+    border-top: 0px;
+    font-size: 18px;
+}
+
+.menu_item:hover .more_item {
+    display: block;
+}
+
+
+
+
+
 
 
