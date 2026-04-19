@@ -4,13 +4,9 @@
     font-size: 14px;
 }
 
-h1 {
-    font-size: 22px;
-}
-
-
 .cv_name { 
     margin-top: 40px;
+    font-size: 22px;
 }
 
 .cv_container{
@@ -143,6 +139,69 @@ h1 {
 .menu_item:hover .more_item {
     display: block;
 }
+
+.form_container {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    padding: 25px;
+}
+
+.form_title {
+    font-size: 20px;
+}
+.form_instruction {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.input_container {
+    margin-top: 15px;
+}
+.input_container .text_input {
+    margin-top: 6px;
+    display: block;
+    width: 85%;
+    height: 32px;
+    border: 1px solid #C1CFDA;
+    border-radius: 4px;
+
+}
+
+.radio_option, .checkbox_option{
+    height: 25px;
+    line-height: 25px;
+    margin-top: 6px;
+}
+
+.radio_option input, .checkbox_option input{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    vertical-align: middle;
+}
+.radio_option label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.avatar{
+    display: block;
+    background-color: silver;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+.register_btn{
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
 
 
 
